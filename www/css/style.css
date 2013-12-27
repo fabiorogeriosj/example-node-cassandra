@@ -1,0 +1,26 @@
+table {
+	border: 1px solid #ccc;
+}
+table thead {
+	background-color: #e0e0e0;
+}
+table td, table th {
+	padding: 5px;
+}
+table a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+input[type="text"] {
+	display: list-item;
+	padding: 3px;
+	width: 300px;
+}
+form {
+	padding: 10px;
+	list-style: none;
+	display: none;
+}
+form[action="/delete"]{
+	display: block;
+}

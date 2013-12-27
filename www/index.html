@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example NodeJS with Apache Cassandra</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/front.js"></script>
+</head>
+<body>
+<h1>List contact</h1>
+<p>It is a simple example to CRUD using Node.js and Apache Cassandra!</p>
+<p><a id="add" href="#">Click here<a/> to add new contact</p>
+<form method="post" action="/contact">
+    <label for="email">Email:</label>
+    <input type="text" name="email">
+
+    <label for="name">Name:</label>
+    <input type="text" name="name">
+
+    <label for="phone">Phone:</label>
+    <input type="text" name="phone">
+
+    <label for="address">Address:</label>
+    <input type="text" name="address">
+
+    <label for="city">City:</label>
+    <input type="text" name="city">
+
+    <input type="submit" value="Save">
+</form>
+<table>
+    <thead>
+        <tr>
+            <th>Actions</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+</table>
+</body>
+</html>
