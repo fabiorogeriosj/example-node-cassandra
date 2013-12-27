@@ -12,6 +12,7 @@ For this example I used `express` and the driver for Apache Cassandra `helenus`.
 You need to have installed node.js!
 
 `git clone https://github.com/fabiorogeriosj/example-node-cassandra.git`
+
 `npm install`
 
 ## Usage
