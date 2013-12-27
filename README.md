@@ -9,13 +9,18 @@ For this example I used `express` and the driver for Apache Cassandra `helenus`.
 
 ## Installation
 
-You need to have installed node.js!
+You need to have installed node.js and Apacha Cassandra!
+I'll create a Gits about installation and configured Apache Cassandra.
 
 `git clone https://github.com/fabiorogeriosj/example-node-cassandra.git`
 
 `npm install`
 
 ## Usage
+
+Edit the file `app.js` and change the host connection to Cassandra `hosts : ['192.168.1.214:9160']`.
+
+After...
 
 `node app.js`
 
