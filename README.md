@@ -19,4 +19,8 @@ You need to have installed node.js!
 
 `node app.js`
 
-![](//example-cassandra-node.png)
+## Result 
+
+Open your browser to link `http://localhost:8181/`
+
+![](example-cassandra-node.png)
