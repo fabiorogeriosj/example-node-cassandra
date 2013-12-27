@@ -18,4 +18,5 @@ You need to have installed node.js!
 ## Usage
 
 `node app.js`
+
 ![](//example-cassandra-node.png)
